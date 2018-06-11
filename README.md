@@ -35,7 +35,7 @@ sudo pip install --upgrade pip
 
 **Installing serial-USB conventer driver:**
 
-if you are using serial-Usb conventer, Just connect the device and it will be available. The commands lsusb and dmesg | tail (directly after plugging in the device) are your friends here.
+If you are using serial-Usb conventer, Just connect the device and it will be available. The commands lsusb and dmesg | tail (directly after plugging in the device) are your friends here.
 
 Serial COM Ports are addressed as /dev/tty* (hardware serial COM ports) while USB serials (like the FTDI chip) appear as /dev/ttyUSB* when they are connected.
 

@@ -2,7 +2,7 @@
 
 ## Getting the sources
 
-This porject uses git repository, thus before building the project ,do the following step
+This project uses git repository, thus before building the project ,do the following step
 
 * **Clone the main project:** 
 

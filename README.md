@@ -69,3 +69,7 @@ if you are using linux system call
 ```shell
 python2.7 linux.py
 ```
+
+## Usage
+
+check [here](https://minimalmodbus.readthedocs.io/en/master/usage.html#)

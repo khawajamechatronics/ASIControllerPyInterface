@@ -17,11 +17,6 @@ The server part can be build and executed on the following operating systems:
  * Linux
  * Windows
  
-## Compiling 
-
-MinimalModbus is an easy-to-use Python module for talking to instruments (slaves) from a computer (master) using the Modbus protocol, and is intended to be running on the master. Example code includes drivers for Eurotherm and Omega process controllers. The only dependence is the pySerial module (also pure Python).
-
-Tested with Python 2.7, 3.2, 3.3 and 3.4.
 
 ## Installation
 
@@ -57,4 +52,20 @@ Minimak modbus is a python library, could be installed by calling
 sudo pip install minimalmodbus
 ```
 
+## Compiling 
 
+MinimalModbus is an easy-to-use Python module for talking to instruments (slaves) from a computer (master) using the Modbus protocol, and is intended to be running on the master. Example code includes drivers for Eurotherm and Omega process controllers. The only dependence is the pySerial module (also pure Python).
+
+Tested with Python 2.7, 3.2, 3.3 and 3.4.
+
+change into cloned repository:
+
+```shell
+cd ASIControllerPyInterface
+```
+
+if you are using linux system call 
+
+```shell
+python2.7 linux.py
+```
